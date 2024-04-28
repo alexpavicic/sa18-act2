@@ -7,3 +7,27 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Product.create!(
+    name:  'Wolf',
+    price: 2500,
+    description: 'Dangerous animal but cool',
+)
+
+Product.create!(
+    name:  'Lightbulb',
+    price: 5.99,
+    description: 'Never be in the dark, get a lightbulb',
+)
+
+Product.create!(
+    name:  '1977 Pontiac Firebird ',
+    price: 30000,
+    description: 'classic muscle car that increases pollution',
+)
+
+Product.create!(
+    name:  'NBA Playoff Tickets',
+    price: 675.97,
+    description: '--Disclaimer-- Tickets are for veiewing seats at movie theater, not stadium --',
+)
